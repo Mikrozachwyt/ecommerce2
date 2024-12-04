@@ -1,0 +1,33 @@
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.filter-input {
+  padding: 8px;
+  font-size: 14px;
+  width: 200px;
+  border: 1px solid #333;
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  border-radius: 4px;
+}
+
+.filter-input::placeholder {
+  color: #777;
+}
+
+.filter-button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #e0e0e0;
+  border: 1px solid #444;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.filter-button:hover {
+  background-color: #444;
+}
